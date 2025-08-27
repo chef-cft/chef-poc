@@ -1,0 +1,15 @@
+name: httpd
+title: Ensure Apache is installed and running
+desc: |
+  This profile checks to see if Apache is installed and running on the target system.
+  If Apache is not installed, the profile will fail.
+  If Apache is installed but not running, the profile will fail.
+  If Apache is installed and running, the profile will pass.
+maintainer: Mike Butler
+copyright: Snohio
+copyright_email: snohio@gmail.com
+license: Apache-2.0
+summary: Run the Chef Client every 5 Minutes
+version: 0.1.2
+supports:
+  platform: os
