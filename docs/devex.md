@@ -26,7 +26,7 @@ cookbook_path = ['~/chef-repo']
 
 > We will all use the pang-admin user object for now. This will grant Admin privileges of the Org. We will talk about Orgs later.
 
-1. Create pang-admin.pem key with the key provided.
+1. Create pang-admin.pem key with the key provided by Solution Architect
 2. Test the connectivity with `knife ssl fetch` and `knife ssl check`.
 3. We'll come back to this shortly.
 
