@@ -5,7 +5,7 @@
 Download and install the Chef Workstation (Developer Kit)
 
 - macOS / Linux Installer: `curl -L https://chefdownload-commercial.chef.io/install.sh?license_id=tmns-7ccf0526-f679-45a6-9878-c022c5f93601-6104 | sudo bash -s -- -P chef-workstation`
-- Windows Installer: ` { iwr -useb https://chefdownload-commercial.chef.io/install.ps1?license_id=tmns-7ccf0526-f679-45a6-9878-c022c5f93601-6104 } | iex; install -project chef-workstation`
+- Windows Installer: `. { iwr -useb https://chefdownload-commercial.chef.io/install.ps1?license_id=tmns-7ccf0526-f679-45a6-9878-c022c5f93601-6104 } | iex; install -project chef-workstation`
 
 - [Windows 10](https://chefdownload-commerical.chef.io/stable/chef-workstation/download?eol=true&license_id=tmns-7ccf0526-f679-45a6-9878-c022c5f93601-6104&m=x86_64&p=windows&pv=10&v=25.5.1084)
 - [macOS 14](https://chefdownload-commerical.chef.io/stable/chef-workstation/download?eol=true&license_id=tmns-7ccf0526-f679-45a6-9878-c022c5f93601-6104&m=aarch64&p=mac_os_x&pv=14&v=25.5.1084)
@@ -20,7 +20,7 @@ Create the ~/.chef/credentials file with
 client_name = "pang-admin"
 client_key = "~/.chef/pang-admin.pem"
 chef_server_url = "https://pang.demo.chef.io/organizations/demo"
-chef_server_root = "https://pang.deno.chef.io/"
+chef_server_root = "https://pang.demo.chef.io/"
 cookbook_path = ['~/chef-repo']
 ```
 
@@ -35,7 +35,7 @@ cookbook_path = ['~/chef-repo']
 This is a magic script that should install Podman on a fresh Ubuntu 24.04 image:
 
 ```sh
-curl -O https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-eus-d6-583975202aa340a499f20a4873f089bf/views/original/setup_podman_ubuntu24.sh
+curl -O https://raw.githubusercontent.com/chef-cft/chef-poc/refs/heads/main/setup_podman_ubuntu24.sh
 chmod +x setup_podman_ubuntu24.sh
 ./setup_podman_ubuntu24
 ```

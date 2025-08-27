@@ -2,11 +2,11 @@
 
 ## Scope: There are three main topics to cover and two also important topics
 
-1) [Demonstrate the Developer Experience](devex.md)
-2) [Demonstrate the Operations Experience](opex.md)
-3) [Compliance Operations](compliance.md)
-4) [Demonstrate the Courier Experience](courier.md)
-5) [Demonstrate the Patching Experience](patching.md)
+1. [Demonstrate the Developer Experience](devex.md)
+2. [Demonstrate the Operations Experience](opex.md)
+3. [Compliance Operations](compliance.md)
+4. [Demonstrate the Courier Experience](courier.md)
+5. [Demonstrate the Patching Experience](patching.md)
 
 ## Some Useful Documentation
 
